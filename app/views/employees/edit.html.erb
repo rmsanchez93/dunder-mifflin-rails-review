@@ -1,0 +1,7 @@
+<h1>Edit our Employee!</h1>
+
+<%= render "form" %>
+
+<%= form_for @employee, method: :delete do  | f | %>
+    <%= f.submit "Destory this Employee" %>
+<% end %>
